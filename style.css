@@ -1,0 +1,79 @@
+  body{
+    background-image: radial-gradient( #ffffff, #22c1c3);
+    background: url('gambar/biru1.png'); 
+    height: 50%;
+    /* min-height: 100vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  #formlogin {
+    background: rgb(255, 255, 255);
+    width: 30%;
+    height: 350px;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    margin-top: 150px;
+    /* margin-bottom: 192px; */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  }
+
+
+  @font-face {
+    src: url('font/SummerInCalifornia.ttf');
+    font-family: summer;
+  }
+
+  #formlogin form {
+    margin-top: 15px;
+    float: left;
+    padding: 5px;
+  }
+
+  #formlogin .inputan {
+    width: 80%;
+    margin-top: 1px;
+    height: 50px;
+    border: 0px;
+    border-bottom: 1px solid #0027eb;
+    font-size: 16px;
+    font-family: summer;
+    background: transparent;
+    
+  }
+
+  #formlogin .wed {
+    margin-top: 40px;
+    margin-left: 25px;
+    width: 30%;
+    height: 40px;
+    background: #4160ff;
+    border: none;
+    color: white;
+    font-family: product sans;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  }
+  #formlogin .wed:hover {
+    background-color: rgb(2, 45, 163);
+  }
+
+  #formlogin h1 {
+    text-align: center;
+    padding: 5px;
+    color: #4160ff;
+    font-family: summer;
+   
+  }
+
+  #formlogin hr {
+    width: 80%;
+    height: 5px;
+    border: none;
+    background: #4160ff;
+    
+  }
+
